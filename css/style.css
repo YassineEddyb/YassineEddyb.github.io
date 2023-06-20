@@ -9420,12 +9420,12 @@ h6,
 
 .img-container {
   height: 250px;
-  background-color: grey;
+  background-color: #dddddd;
 }
 .img-container img {
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  object-fit: contain;
 }
 
 .portfolio-item .portfolio-btn {
