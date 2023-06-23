@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Yassine</title>
+    <title>Yassine Ed-dyb</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="Free HTML Templates" name="keywords" />
     <meta content="Free HTML Templates" name="description" />
@@ -71,41 +71,8 @@
     </nav>
     <!-- Navbar End -->
 
-    <!-- Video Modal Start -->
-    <div
-      class="modal fade"
-      id="videoModal"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-body">
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-            <!-- 16:9 aspect ratio -->
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe
-                class="embed-responsive-item"
-                src=""
-                id="video"
-                allowscriptaccess="always"
-                allow="autoplay"
-              ></iframe>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Video Modal End -->
+    <div id="cursor"></div>
+    <div id="cursor-border"></div>
 
     <!-- Header Start -->
     <div
@@ -113,7 +80,7 @@
       id="home"
       style="min-height: 100vh"
     >
-      <div class="container">
+      <div class="container" data-depth="0.1">
         <div class="row align-items-center">
           <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
             <img
@@ -123,17 +90,24 @@
             />
           </div>
           <div class="col-lg-7 text-center text-lg-left">
-            <h3 class="text-white font-weight-normal mb-3">I'm</h3>
+            <h3
+              class="text-white font-weight-normal mb-3"
+              data-cursor="pointer2"
+            >
+              I'm
+            </h3>
             <h1
               class="display-3 text-uppercase text-primary mb-2"
               style="-webkit-text-stroke: 2px #ffffff"
+              data-cursor="pointer2"
             >
               Yassine Ed-dyb
             </h1>
             <h1
+              data-cursor="pointer2"
               class="typed-text-output d-inline font-weight-lighter text-white"
             ></h1>
-            <div class="typed-text d-none">
+            <div class="typed-text d-none" data-cursor="pointer2">
               Web Developer, Web Designer, Front-End Developer, Back-End
               Developer, Mobile App Developer
             </div>
@@ -144,6 +118,7 @@
                 href="./assets/profile.pdf"
                 target="_blank"
                 class="btn btn-outline-light mr-5"
+                data-cursor="pointer"
                 >Download CV</a
               >
               <!-- <button
@@ -179,7 +154,10 @@
           >
             About
           </h1>
-          <h1 class="position-absolute text-uppercase text-primary">
+          <h1
+            class="position-absolute text-uppercase text-primary"
+            data-cursor="pointer2"
+          >
             About Me
           </h1>
         </div>
@@ -192,8 +170,8 @@
             />
           </div>
           <div class="col-lg-7">
-            <h3 class="mb-4">Front-end Web Developer</h3>
-            <p>
+            <h3 data-cursor="pointer2" class="mb-4">Front-end Web Developer</h3>
+            <p data-cursor="pointer2">
               Front end React developer. I have been working with various
               technologies like React.js, NodeJS and JavaScript. I have honed my
               skills through collaborative work with skilled teams on numerous
@@ -203,46 +181,30 @@
               JavaScript Frameworks like Vue JS, JQuery, Angular
             </p>
             <div class="row mb-3">
-              <div class="col-sm-6 py-2">
+              <div class="col-sm-6 py-2" data-cursor="pointer2">
                 <h6>
                   Name: <span class="text-secondary">Yassine Ed-dyb</span>
                 </h6>
               </div>
-              <!-- <div class="col-sm-6 py-2">
-                <h6>
-                  Birthday: <span class="text-secondary">1 April 2000</span>
-                </h6>
-              </div> -->
-              <!-- <div class="col-sm-6 py-2">
-                <h6>Degree: <span class="text-secondary">Master</span></h6>
-              </div> -->
-              <div class="col-sm-6 py-2">
+              <div class="col-sm-6 py-2" data-cursor="pointer2">
                 <h6>Experience: <span class="text-secondary">3 Years</span></h6>
               </div>
-              <!-- <div class="col-sm-6 py-2">
-                <h6>
-                  Phone: <span class="text-secondary">+212688043627</span>
-                </h6>
-              </div> -->
-              <div class="col-sm-6 py-2">
+              <div class="col-sm-6 py-2" data-cursor="pointer2">
                 <h6>
                   Email:
                   <span class="text-secondary">yassineeddyb@gmail.com</span>
                 </h6>
               </div>
-              <!-- <div class="col-sm-6 py-2">
-                <h6>
-                  Address:
-                  <span class="text-secondary">123 Street, New York, USA</span>
-                </h6>
-              </div> -->
-              <div class="col-sm-6 py-2">
+              <div class="col-sm-6 py-2" data-cursor="pointer2">
                 <h6>
                   Freelance: <span class="text-secondary">Available</span>
                 </h6>
               </div>
             </div>
-            <a href="#contact" class="btn btn-outline-primary mr-4"
+            <a
+              href="#contact"
+              class="btn btn-outline-primary mr-4"
+              data-cursor="pointer"
               >Contact Me</a
             >
             <!-- <a href="" class="btn btn-outline-primary">Learn More</a> -->
@@ -395,11 +357,14 @@
           >
             Skills
           </h1>
-          <h1 class="position-absolute text-uppercase text-primary">
+          <h1
+            class="position-absolute text-uppercase text-primary"
+            data-cursor="pointer2"
+          >
             My Skills
           </h1>
         </div>
-        <div class="row align-items-center">
+        <div class="row align-items-center" data-cursor="pointer2">
           <div class="col-md-6">
             <div class="skill mb-4">
               <div class="d-flex justify-content-between">
@@ -511,11 +476,14 @@
           >
             Service
           </h1>
-          <h1 class="position-absolute text-uppercase text-primary">
+          <h1
+            class="position-absolute text-uppercase text-primary"
+            data-cursor="pointer2"
+          >
             My Services
           </h1>
         </div>
-        <div class="row pb-3">
+        <div class="row pb-3" data-cursor="pointer2">
           <div class="col-lg-4 col-md-6 text-center mb-5">
             <div class="d-flex align-items-center justify-content-center mb-4">
               <i
@@ -614,7 +582,10 @@
           >
             Gallery
           </h1>
-          <h1 class="position-absolute text-uppercase text-primary">
+          <h1
+            class="position-absolute text-uppercase text-primary"
+            data-cursor="pointer2"
+          >
             My Portfolio
           </h1>
         </div>
@@ -624,12 +595,14 @@
               <li
                 class="btn btn-sm btn-outline-primary m-1 active"
                 data-filter="*"
+                data-cursor="pointer"
               >
                 All
               </li>
               <li
                 class="btn btn-sm btn-outline-primary m-1"
                 data-filter=".first"
+                data-cursor="pointer"
               >
                 Web
               </li>
@@ -642,13 +615,14 @@
               <li
                 class="btn btn-sm btn-outline-primary m-1"
                 data-filter=".third"
+                data-cursor="pointer"
               >
                 C/C++
               </li>
             </ul>
           </div>
         </div>
-        <div class="row portfolio-container">
+        <div class="row portfolio-container" data-cursor="pointer2">
           <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
             <div class="position-relative overflow-hidden mb-2">
               <div class="img-container">
@@ -860,7 +834,10 @@
           >
             Contact
           </h1>
-          <h1 class="position-absolute text-uppercase text-primary">
+          <h1
+            class="position-absolute text-uppercase text-primary"
+            data-cursor="pointer2"
+          >
             Contact Me
           </h1>
         </div>
@@ -920,6 +897,7 @@
                     class="btn btn-outline-primary"
                     type="submit"
                     id="sendMessageButton"
+                    data-cursor="pointer"
                   >
                     Send Message
                   </button>
@@ -939,18 +917,21 @@
       <div class="container text-center py-5">
         <div class="d-flex justify-content-center mb-4">
           <a
+            data-cursor="pointer"
             class="btn btn-light btn-social mr-2"
             href="https://www.linkedin.com/in/yassineeddyb/"
             target="_blank"
             ><i class="fab fa-linkedin-in"></i
           ></a>
           <a
+            data-cursor="pointer"
             class="btn btn-light btn-social mr-2"
             href="https://github.com/YassineEddyb"
             target="_blank"
             ><i class="fab fa-github"></i
           ></a>
           <a
+            data-cursor="pointer"
             class="btn btn-light btn-social mr-2"
             href="https://twitter.com/yassine98976424"
             target="_blank"
@@ -966,7 +947,7 @@
           <span class="px-3">|</span>
           <a class="text-white" href="#">Help</a>
         </div> -->
-        <p class="m-0">
+        <p class="m-0" data-cursor="pointer2">
           &copy;
           <a class="text-white font-weight-bold" href="#">yed-dyb.me</a>. All
           Rights Reserved.
@@ -984,6 +965,14 @@
     ></a>
 
     <!-- JavaScript Libraries -->
+    <!-- parallax -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"
+      integrity="sha512-/6TZODGjYL7M8qb7P6SflJB/nTGE79ed1RfJk3dfm/Ib6JwCT4+tOfrrseEHhxkIhwG8jCl+io6eaiWLS/UX1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="lib/typed/typed.min.js"></script>
