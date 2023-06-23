@@ -29,7 +29,6 @@
   });
 
   document.querySelectorAll("[data-cursor]").forEach((item) => {
-    console.log(item.dataset.cursor);
     item.addEventListener("mouseover", (e) => {
       if (item.dataset.cursor === "pointer") {
         cursorBorder.style.backgroundColor = "rgba(255, 255, 255, .6)";
@@ -40,6 +39,14 @@
         cursorBorder.style.mixBlendMode = "difference";
         cursorBorder.style.setProperty("--size", "80px");
       }
+      // if (item.dataset.cursor === "pointer-img") {
+      //   cursorBorder.style.backgroundImage = "url('../img/home-profile-2.png')";
+      //   cursorBorder.style.backgroundAttachment = "fixed";
+      //   cursorBorder.style.backgroundSize = "400px 400px";
+      //   // cursorBorder.style.backgroundColor = "red";
+      //   // cursorBorder.style.mixBlendMode = "color";
+      //   cursorBorder.style.setProperty("--size", "200px");
+      // }
     });
     item.addEventListener("mouseout", (e) => {
       cursorBorder.style.backgroundColor = "unset";
